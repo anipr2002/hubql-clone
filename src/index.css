@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+body{
+    background-color: #18181B;
+    color: #fff;    
+    /* background-image: radial-gradient(at 50% 0%, #202023 0%, transparent 100%); */
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+section{
+    overflow: visible !important; 
+}
+
+li{
+    color:#c2c2c2;
+    padding-bottom: 10px;
+    text-wrap: nowrap;
+}
