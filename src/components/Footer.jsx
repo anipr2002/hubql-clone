@@ -73,7 +73,8 @@ const Footer = () => {
         </div>
       </div>
       <p className="mt-20 text-center text-[#c2c2c2] pb-4">
-        No Copyright © <a>View Source Code</a>
+        No Copyright ©{" "}
+        <a href="https://github.com/anipr2002/hubql-clone">View Source Code</a>
       </p>
     </section>
   );

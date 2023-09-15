@@ -35,12 +35,14 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center w-fit">
-          <div className="flex items-center text-white px-8">
-            <BiLogoGithub size={25} />
-            <span className="text-[#c2c2c2] pl-2 hover:text-white hover:cursor-pointer">
-              Github
-            </span>
-          </div>
+          <a href="https://github.com/anipr2002/hubql-clone">
+            <div className="flex items-center text-white px-8">
+              <BiLogoGithub size={25} />
+              <span className="text-[#c2c2c2] pl-2 hover:text-white hover:cursor-pointer">
+                Github
+              </span>
+            </div>
+          </a>
 
           <button className="bg-[#7108C2] text-white px-4 py-2 rounded-md flex">
             Login
